@@ -29,6 +29,6 @@ I would choose **MongoDB** for following reasons :
 
 - I'm more experienced with MongoDB and by choosing this I can further with the discussion.
 
-# Tools and Server : 
-- Definitely we would like to have some caching mechanism and services for faster fetch.*Memcached or Redis.*
-- Secondly for writes we will definitly have some after operations which are not immidiately needed in the response.These operations can be done sometimes later.For this we will need some job scheduling mechanism, messaging service like RabbitMQ,kafka can be used.
+## Tools and Server : 
+- Definitely we would like to have some caching mechanism and services for faster fetch.**Memcached or Redis.**
+- Secondly for writes we will definitly have some after operations which are not immidiately needed in the response.These operations can be done sometimes later.For this we will need some job scheduling mechanism, messaging service like **RabbitMQ,kafka** can be used.
