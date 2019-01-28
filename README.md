@@ -30,4 +30,4 @@ node can_create.js
 * [Follower](https://github.com/shrey230195/haptik/blob/master/Twitter/Schema/follower.server.model.js) - Scheema for follower relationship
 * [Activity](https://github.com/shrey230195/haptik/blob/master/Twitter/Schema/activity.server.model.js) - Scheema for logging activities
 ### * Write a function/API that will return all the tweets to show on the dashboard of aparticular user - [Timeline.server.controller.js](https://github.com/shrey230195/haptik/blob/master/Twitter/Controllers/timeline.server.controller.js)
-### * How much can the system you have built scale up to? What are the limiting factors ofyour system and when will it start failing? - [problems_at_scale.txt](https://github.com/shrey230195/haptik/blob/master/Twitter/problems_at_scale.txt)
+### * How much can the system you have built scale up to? What are the limiting factors ofyour system and when will it start failing? - [problems_in_scale.txt](https://github.com/shrey230195/haptik/blob/master/Twitter/problems_in_scale.txt)
