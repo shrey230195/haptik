@@ -15,7 +15,7 @@ exports.list = function(req, res) {
         user : req.user
     }
     // get list of followers
-    Follower.find(query).sort('-createdAt').exec(function(err, followers) {
+    Follower.find(query).sort('createdAt').exec(function(err, followers) {
         if (err) {
             return res.status(400).send({
                 error: true,
@@ -28,7 +28,7 @@ exports.list = function(req, res) {
             let tweetQuery = {
                 user : { $in : followerIds }
             }
-            Tweet.find(tweetQuery).sort('-createdAt').exec(function(err, tweets) {
+            Tweet.find(tweetQuery).sort('createdAt').exec(function(err, tweets) {
                 if (err) {
                     return res.status(400).send({
                         error: true,
