@@ -1,0 +1,14 @@
+{
+  "name": "haptik",
+  "version": "1.0.0",
+  "description": "haptik tasks",
+  "main": "active-users.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shrey",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
