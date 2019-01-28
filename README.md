@@ -22,12 +22,12 @@ Solution is in [can_create.js](https://github.com/shrey230195/haptik/blob/master
 node can_create.js
 ```
 ## Q2 :  Twitter Schema Design
-### * What technologies would you use to build out this platform? [tech-stack.txt](https://github.com/shrey230195/haptik/blob/master/Twitter/tech_stack.txt)
+### * What technologies would you use to build out this platform? [tech-stack.md](https://github.com/shrey230195/haptik/blob/master/Twitter/tech_stack.md)
 ### * Write the schema of your database that is going to store the data 
-- The Approach taken for schema design is in [Approach.txt](https://github.com/shrey230195/haptik/blob/master/Twitter/approach.txt)
+- The Approach taken for schema design is in [approach.md](https://github.com/shrey230195/haptik/blob/master/Twitter/approach.md)
 * [User](https://github.com/shrey230195/haptik/blob/master/Twitter/Schema/user.server.model.js) - The User Schema
 * [Tweet](https://github.com/shrey230195/haptik/blob/master/Twitter/Schema/tweet.server.model.js) - Schema for Tweets
 * [Follower](https://github.com/shrey230195/haptik/blob/master/Twitter/Schema/follower.server.model.js) - Scheema for follower relationship
 * [Activity](https://github.com/shrey230195/haptik/blob/master/Twitter/Schema/activity.server.model.js) - Scheema for logging activities
 ### * Write a function/API that will return all the tweets to show on the dashboard of aparticular user - [Timeline.server.controller.js](https://github.com/shrey230195/haptik/blob/master/Twitter/Controllers/timeline.server.controller.js)
-### * How much can the system you have built scale up to? What are the limiting factors ofyour system and when will it start failing? - [problems_in_scale.txt](https://github.com/shrey230195/haptik/blob/master/Twitter/problems_in_scale.txt)
+### * How much can the system you have built scale up to? What are the limiting factors ofyour system and when will it start failing? - [problems_in_scale.md](https://github.com/shrey230195/haptik/blob/master/Twitter/problems_in_scale.md)
