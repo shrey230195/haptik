@@ -59,7 +59,7 @@ var TweetSchema = new Schema({
 });
 
 /**
- * Hook a pre save method to hash the password
+ * Hook a pre save method to do to after operations
  */
 
 TweetSchema.pre('save', function(next) {

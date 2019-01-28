@@ -23,7 +23,7 @@ var FollowerSchema = new Schema({
 });
 
 /**
- * Hook a pre save method to hash the password
+ * Hook a pre save method to do to after operations
  */
 
 FollowerSchema.pre('save', function(next) {

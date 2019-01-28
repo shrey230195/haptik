@@ -31,7 +31,7 @@ var ActivitySchema = new Schema({
 });
 
 /**
- * Hook a pre save method to hash the password
+ * Hook a pre save method to do to after operations
  */
 
 ActivitySchema.pre('save', function(next) {

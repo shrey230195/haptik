@@ -1,0 +1,7 @@
+Some facts to consider before buiding out the platform
+
+No. Of Monthly Active users : 326 mn
+Total tweets per Day : 500 mn
+Mobile user base : 80%
+No. of active users : 100 mn
+Avg followers per User : 707
